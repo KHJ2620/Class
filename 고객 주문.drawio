@@ -1,9 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T02:59:26.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="tRgq_tdywetebdNztciX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T08:05:26.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-vNUCLXhktNDCJK8ewed" version="21.6.1" type="github">
   <diagram name="페이지-1" id="GAfQNpw204wNvuTGxtPF">
-    <mxGraphModel>
+    <mxGraphModel dx="1877" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-1" value="&lt;u&gt;고객번호&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-2" value="성명" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-3" value="주소" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-4" value="&lt;u&gt;주문번호&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-5" value="품명" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-6" value="수량" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-7" value="금액" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-8" value="고객번호(FK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-9" value="고객" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-410" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-11" value="주문서" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="-290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z6r8FS-F2DcBwkcm-4mu-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="z6r8FS-F2DcBwkcm-4mu-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="-220" as="sourcePoint" />
+            <mxPoint x="-20" y="-320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="-280" />
+              <mxPoint x="-20" y="-280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
